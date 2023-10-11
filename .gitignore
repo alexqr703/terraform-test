@@ -1,0 +1,25 @@
+# Ignorar archivos de estado de Terraform
+**/.terraform/
+**/.terraform/*
+
+# Ignorar archivos de respaldo y archivos temporales
+*~
+*.bak
+*.swp
+
+# Ignorar archivos de configuración local y variables específicas de entorno
+*.tfvars
+*.auto.tfvars
+*.override.tf
+*.override.tf.json
+override.tf
+override.tf.json
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos de salida binarios
+*.zip
+
+# Ignorar archivos generados por el sistema
+.DS_Store
