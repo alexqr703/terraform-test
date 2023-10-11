@@ -8,7 +8,6 @@
 *.swp
 
 # Ignorar archivos de configuración local y variables específicas de entorno
-*.tfvars
 *.auto.tfvars
 *.override.tf
 *.override.tf.json
