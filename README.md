@@ -1,20 +1,11 @@
 # terraform-test
 
+dentro de la carpeta global
+
 terraform init
 
-## operations
+terraform plan -out=tfplan
 
-terraform plan -var-file=config/operations.tfvars
+terraform apply tfplan
 
-terraform apply -var-file=config/operations.tfvars
-
-terraform destroy -var-file=config/operations.tfvars
-
-
-## production
-
-terraform plan -var-file=config/production.tfvars
-
-terraform apply -var-file=config/production.tfvars
-
-terraform destroy -var-file=config/production.tfvars
+terraform destroy
